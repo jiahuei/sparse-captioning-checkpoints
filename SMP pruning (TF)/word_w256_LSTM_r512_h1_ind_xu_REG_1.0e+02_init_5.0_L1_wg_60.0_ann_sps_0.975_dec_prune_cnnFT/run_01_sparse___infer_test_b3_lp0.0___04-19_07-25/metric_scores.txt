@@ -1,0 +1,16 @@
+===================================
+model_sparse-177108
+Beam size: 3
+===================================
+Bleu_1: 0.699
+Bleu_2: 0.528
+Bleu_3: 0.393
+Bleu_4: 0.292
+METEOR: 0.231
+ROUGE_L: 0.512
+CIDEr: 0.852
+SPICE: 0.162
+Perplexity (valid): N/A
+Perplexity (test): N/A
+
+
