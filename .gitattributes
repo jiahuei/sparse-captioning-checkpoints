@@ -38,6 +38,7 @@
 *.fla binary
 *.swf binary
 *.gz binary
+*.gz.* binary
 *.zip binary
 *.7z binary
 *.ttf binary
