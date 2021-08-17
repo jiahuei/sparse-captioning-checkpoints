@@ -1,3 +1,17 @@
 # Make all files binary
 * binary
 * linguist-detectable=false
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.txt text
+*.py text
+*.sh text
+*.tex text
+*.php text
+*.css text
+*.js text
+*.htm text
+*.html text
+*.xml text
+*.ini text
+*.inc text
