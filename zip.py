@@ -18,8 +18,8 @@ def zip_dir(target_dir, save_dir):
     print(f"Zipping `{target_dir}` into `{out}`")
     with zipfile.ZipFile(out, 'w', compression=zipfile.ZIP_DEFLATED) as zf:
         for f in list_files(target_dir):
-            zf.write(f, f.replace(os.path.dirname(target_dir), ""))
+            zf.write(f, f.replace(os.path.dirname(target_dir), "", 1))
 
 
 if __name__ == "__main__":
-    zip_dir("./ACORT/ACORT-small", ".")
+    zip_dir("./ACORT/ACORT-xsmall", ".")
